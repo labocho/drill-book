@@ -1,37 +1,25 @@
-# fizzbuzz
+# fibonacci
 
 ## ねらい
 
-コマンドライン引数の取得、整数への変換、ループと分岐の方法を知る。
+再帰やパターンマッチを知る。
 
 ## 問題
 
-コマンドライン引数に 1 つの自然数 (10進数) n が渡されるので 1 <= m <= n となる自然数 m について、昇順で下記のように標準出力に出力してください。
-
-1. m が 3 で割り切れるが 5 で割り切れないなら `Fizz`
-2. m が 5 で割り切れるが 3 で割り切れないなら `Buzz`
-3. m が 3 および 5 で割り切れるなら `FizzBuzz`
-4. 1-3 に該当しなければ m
+コマンドライン引数に 1 つの自然数 (10進数) n が渡されるので、n 番目の[フィボナッチ数](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A3%E3%83%9C%E3%83%8A%E3%83%83%E3%83%81%E6%95%B0)を標準出力に出力してください。
 
 ## 実行例
 
-    $ ruby example.rb 16
+    $ ruby example.rb 1
     1
+    $ ruby example.rb 2
+    1
+    $ ruby example.rb 3
     2
-    Fizz
-    4
-    Buzz
-    Fizz
-    7
-    8
-    Fizz
-    Buzz
-    11
-    Fizz
-    13
-    14
-    FizzBuzz
-    16
+    $ ruby example.rb 4
+    3
+    $ ruby example.rb 5
+    5
 
 ## テスト
 
@@ -40,4 +28,4 @@
 ## 応用
 
 結果が符号なし 64bit で表現できない大きな値にも対応してください。
-`./test_large.sh ruby example.rb` のように実行して `OK` と出力されれば正解です。
+`./test_large.sh ruby example_large.rb` のように実行して `OK` と出力されれば正解です。
