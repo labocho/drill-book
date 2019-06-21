@@ -20,13 +20,13 @@ if ARGV.first == "https"
   )
 end
 
-s = WEBrick::HTTPServer.new(config)
+server = WEBrick::HTTPServer.new(config)
 
-s.mount_proc "/" do |req, res|
+server.mount_proc "/" do |req, res|
   n = req.query["n"].to_i
   n = n ** 2
-  res.body = n.to_s
+  res.body = n.to_s + "\n"
 end
 
-trap(:INT) { s.shutdown }
-s.start
+trap(:INT) { server.shutdown }
+server.start
