@@ -1,0 +1,6 @@
+text,number
+"includes
+new line",1
+"includes , comma",2
+"includes "" double quote",3
+unquoted,4
