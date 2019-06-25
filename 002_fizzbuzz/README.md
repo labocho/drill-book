@@ -15,7 +15,7 @@
 
 ## 実行例
 
-    $ ruby example.rb 16
+    $ ruby example/fizzbuzz.rb 16
     1
     2
     Fizz
@@ -35,4 +35,5 @@
 
 ## テスト
 
-`./test.sh ruby example.rb` のように実行して `OK` と出力されれば正解です。
+`test.sh` の `./test/fizzbuzz_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+`./test.sh` を実行して `OK` と出力されれば正解です。

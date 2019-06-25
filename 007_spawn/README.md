@@ -17,9 +17,11 @@
 
 ## テスト
 
-`./test.sh ruby example.rb` のように実行して `OK` と出力されれば正解です。
+`test.sh` の `./test/cat_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+`./test.sh` を実行して `OK` と出力されれば正解です。
 
 ## 応用
 
 サブプロセス実行時に、自身の標準入力をサブプロセスの標準入力に渡してください。
-`./test_stdin.sh ruby example_stdin.rb` のように実行して `OK` と出力されれば正解です。
+`test_stdin.sh` の `./test/cat_stdin_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+`./test_stdin.sh` を実行して `OK` と出力されれば正解です。

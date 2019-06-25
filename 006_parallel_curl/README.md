@@ -10,9 +10,9 @@
 
 ## 実行例
 
-    $ ruby server.rb &
+    $ ruby test/server.rb &
     $ SERVER=$!
-    $ ruby example.rb 'http://localhost:20080/?s=1.1&t=foo' 'http://localhost:20080/?s=0.9&t=bar' 'http://localhost:20080/?s=1.0&t=baz'
+    $ ruby example/parallel_curl.rb 'http://localhost:20080/?s=1.1&t=foo' 'http://localhost:20080/?s=0.9&t=bar' 'http://localhost:20080/?s=1.0&t=baz'
     BAR
     BAZ
     FOO
@@ -20,5 +20,6 @@
 
 ## テスト
 
-`./test.rb ruby example.rb` のように実行して `OK` と出力されれば正解です。
+`test.sh` の `./test/parallel_curl_test.rb ` のあとに作成したプログラムを実行するコマンドを書いてください。
+`./test.sh` を実行して `OK` と出力されれば正解です。
 (ruby が必要です)

@@ -6,7 +6,7 @@ RDBMS へのアクセス方法を知る。
 
 ## 問題
 
-このディレクトリにある prefectures.sqlite3 は SQLite3 データベースで、prefectures テーブルがあり、地方公共団体コードと都道府県名が保存されています。
+`test/prefectures.sqlite3` は SQLite3 データベースで、prefectures テーブルがあり、地方公共団体コードと都道府県名が保存されています。
 
 ```
 CREATE TABLE prefectures (
@@ -26,4 +26,5 @@ CREATE TABLE prefectures (
 
 ## テスト
 
-`./test.sh ruby example.rb` のように実行して `OK` と出力されれば正解です。
+`test.sh` の `./test/sqlite_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+`./test.sh` を実行して `OK` と出力されれば正解です。

@@ -10,17 +10,22 @@
 
 ## 実行例
 
-    $ echo foo > foo.txt && ruby example.rb foo.txt && rm foo.txt
+    $ echo foo > foo.txt && ruby example/cat.rb foo.txt && rm foo.txt
     foo
-    $ echo foo | ruby example.rb
+    $ echo foo | ruby example/cat.rb
     foo
 
 ## テスト
 
-`./test.sh ruby example.rb` のように実行して `OK` と出力されれば正解です。
+`test.sh` の `./test/cat_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+`./test.sh` を実行して `OK` と出力されれば正解です。
 
 ## 応用
 
-標準入力を読んで標準出力に出力してください。`./test_stdin.sh ruby example.rb` のように実行して `OK` と出力されれば正解です。
+標準入力を読んで標準出力に出力してください。
+`test_stdin.sh` の `./test/cat_stdin_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+`./test_stdin.sh` を実行して `OK` と出力されれば正解です。
 
-引数が複数の場合、指定された順に連結して標準出力に出力してください。引数がない場合は標準入力を呼んで標準出力に出力してください。`./test_multi.sh ruby example.rb` のように実行して `OK` と出力されれば正解です。
+引数が複数の場合、指定された順に連結して標準出力に出力してください。引数がない場合は標準入力を呼んで標準出力に出力してください。
+`test_multi.sh` の `./test/cat_multi_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+`./test_multi.sh` を実行して `OK` と出力されれば正解です。

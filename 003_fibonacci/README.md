@@ -10,22 +10,24 @@
 
 ## 実行例
 
-    $ ruby example.rb 1
+    $ ruby example/fizzbuzz.rb 1
     1
-    $ ruby example.rb 2
+    $ ruby example/fizzbuzz.rb 2
     1
-    $ ruby example.rb 3
+    $ ruby example/fizzbuzz.rb 3
     2
-    $ ruby example.rb 4
+    $ ruby example/fizzbuzz.rb 4
     3
-    $ ruby example.rb 5
+    $ ruby example/fizzbuzz.rb 5
     5
 
 ## テスト
 
-`./test.sh ruby example.rb` のように実行して `OK` と出力されれば正解です。
+`test.sh` の `./test/fibonacci_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+`./test.sh` を実行して `OK` と出力されれば正解です。
 
 ## 応用
 
 結果が符号なし 64bit で表現できない大きな値にも対応してください。
-`./test_large.sh ruby example_large.rb` のように実行して `OK` と出力されれば正解です。
+`test_large.sh` の `./test/fibonacci_test_large.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+`./test_large.sh` を実行して `OK` と出力されれば正解です。

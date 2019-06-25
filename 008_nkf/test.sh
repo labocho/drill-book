@@ -1,17 +1,3 @@
 #!/bin/bash
-
-assert() {
-  expected="$1"
-  actual="$2"
-
-  if [ "$actual" = "$expected" ]; then
-    echo "OK"
-  else
-    echo "FAIL: '$expected' expected, but got '$actual'"
-    exit 1
-  fi
-}
-
-assert "漢字①" "$("$@" -S sjis.txt)"
-assert "絵文字😃" "$("$@" -W16 utf16le.txt)"
-assert "絵文字😃" "$("$@" -W16 utf16be.txt)"
+# `./test/nkf_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください
+./test/nkf_test.sh ruby example/nkf.rb
