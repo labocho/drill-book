@@ -1,4 +1,4 @@
-# helloworld
+# hello_world
 
 ## ねらい
 
@@ -10,10 +10,10 @@
 
 ## 実行例
 
-    $ ruby example/helloworld.rb
+    $ ruby example/hello_world.rb
     Hello world!
 
 ## テスト
 
-`test.sh` の `./test/helloworld_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+`test.sh` の `./test/hello_world_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
 `./test.sh` を実行して `OK` と出力されれば正解です。
