@@ -28,18 +28,18 @@
 下記の手順でぜひ解答例をお寄せください。
 
 1. https://github.com/labocho/drill-book を fork します。
-2. fork したリポジトリの Settings から drill-book-rust のように言語名を付与した名前に Rename してください。
+2. git clone したら解答する言語ごとに branch を作ってください (eg. `git checkout -b rust`)
 3. 解答を作成し (すべての課題に解答していなくても大丈夫です)、テストが通ることを確認してください。
 4. https://github.com/labocho/drill-book/issues/new から下記のテンプレートに従って Issue を作成してください。
 
-    Title: 解答例の追加 ([GitHub ユーザ名]/[GitHub リポジトリ名])
+    Title: 解答例の追加 ([言語名])
     Comment:
     言語: [言語名]
-    リポジトリ: [GitHub リポジトリの URL]
+    リポジトリ: [GitHub の branch の URL]
 
     ※記入例
-    Title: 解答例の追加 (labocho/drill-boook-rust)
+    Title: 解答例の追加 (Rust)
     Comment:
     言語: Rust
-    リポジトリ: https://github.com/labocho/drill-boook-rust
+    リポジトリ: https://github.com/labocho/drill-boook/tree/rust
 
