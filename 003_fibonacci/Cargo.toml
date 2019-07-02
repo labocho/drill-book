@@ -1,0 +1,12 @@
+[package]
+name = "fibonacci"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "fibonacci"
+path = "src/fibonacci.rs"
+
+[[bin]]
+name = "fibonacci_large"
+path = "src/fibonacci_large.rs"
