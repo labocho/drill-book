@@ -1,0 +1,8 @@
+[package]
+name = "curl"
+version = "0.1.0"
+authors = ["labocho <labocho@penguinlab.jp>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "*"
