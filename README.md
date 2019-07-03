@@ -43,3 +43,20 @@
     言語: Rust
     リポジトリ: https://github.com/labocho/drill-boook/tree/rust
 
+## 作問予定
+
+- TCP エコーサーバ
+- DNS クライアント
+- CSV 出力
+- JSON 入出力
+- コマンドライン引数のパース
+- HTML のパース
+- テスト
+- Lint
+- コードフォーマッタ
+- プロファイリング
+- デバッガ
+- タイムゾーンの変更
+- 日時文字列の作成
+- 正規表現 (grep)
+
