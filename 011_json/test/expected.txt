@@ -1,0 +1,4 @@
+includes 
+new line
+includes " double quote
+includes あ unicode escape

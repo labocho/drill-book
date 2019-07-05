@@ -1,0 +1,11 @@
+[
+  {
+    "text": "includes \nnew line"
+  },
+  {
+    "text": "includes \" double quote"
+  },
+  {
+    "text": "includes \u3042 unicode escape"
+  }
+]
