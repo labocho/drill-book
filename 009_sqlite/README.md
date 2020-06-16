@@ -27,4 +27,5 @@ CREATE TABLE prefectures (
 ## テスト
 
 `test.sh` の `./test/sqlite_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+
 `./test.sh` を実行して `OK` と出力されれば正解です。

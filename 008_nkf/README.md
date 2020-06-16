@@ -15,14 +15,15 @@
 
 ## 実行例
 
-    $ ruby example.rb -S sjis.txt
+    $ ruby example/nkf.rb -S test/sjis.txt
     漢字①
-    $ ruby exampl.rb -W16 utf16le.txt
+    $ ruby example/nkf.rb -W16 test/utf16le.txt
     絵文字😃
-    $ ruby exampl.rb -W16 utf16be.txt
+    $ ruby example/nkf.rb -W16 test/utf16be.txt
     絵文字😃
 
 ## テスト
 
 `test.sh` の `./test/nkf_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+
 `./test.sh` を実行して `OK` と出力されれば正解です。
