@@ -11,21 +11,20 @@ JSON へのアクセス方法を知る。
 
 ## 実行例
 
-    $ ruby example/json.rb test/test1.json
+    $ ruby example/json.rb test/test.json
     includes
     new line
-    includes , comma
     includes " double quote
-    unquoted
+    includes あ unicode escape
 
 ## テスト
 
 `test.sh` の `./test/json_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+
 `./test.sh` を実行して `OK` と出力されれば正解です。
 
 ## 応用
 
 コマンドライン引数に上記の形式の JSON ファイルのパスが渡されます。各オブジェクトの `text` に含まれる小文字を大文字にして、標準出力に出力してください。無駄な空白、改行はのぞき、改行コードは `\n` で、不要なエスケープは行わないでください。
 
-`test_write.sh` の `./test/json_write_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
-`./test_write.sh` を実行して `OK` と出力されれば正解です。
+`test_write.sh` の `./test/json_write_test.sh ` のあとに作成したプログラムを実行するコマンドを書き、`./test_write.sh` を実行して `OK` と出力されれば正解です。

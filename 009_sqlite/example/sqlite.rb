@@ -1,5 +1,5 @@
 # ./test.sh ruby example.rb
-gem "sqlite3", "~> 1.4.1"
+require "bundler/setup"
 require "sqlite3"
 
 code = ARGV.first

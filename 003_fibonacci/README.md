@@ -24,10 +24,11 @@
 ## テスト
 
 `test.sh` の `./test/fibonacci_test.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
+
 `./test.sh` を実行して `OK` と出力されれば正解です。
 
 ## 応用
 
 結果が符号なし 64bit で表現できない大きな値にも対応してください。
-`test_large.sh` の `./test/fibonacci_test_large.sh ` のあとに作成したプログラムを実行するコマンドを書いてください。
-`./test_large.sh` を実行して `OK` と出力されれば正解です。
+
+`test_large.sh` の `./test/fibonacci_test_large.sh ` のあとに作成したプログラムを実行するコマンドを書き、`./test_large.sh` を実行して `OK` と出力されれば正解です。
