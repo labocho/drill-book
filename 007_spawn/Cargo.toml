@@ -1,0 +1,9 @@
+[package]
+name = "spawn"
+version = "0.1.0"
+authors = ["labocho <labocho@penguinlab.jp>"]
+edition = "2018"
+
+[[bin]]
+name = "spawn"
+path = "src/spawn.rs"
