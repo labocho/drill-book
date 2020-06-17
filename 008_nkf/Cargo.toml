@@ -1,0 +1,12 @@
+[package]
+name = "nkf"
+version = "0.1.0"
+authors = ["labocho <labocho@penguinlab.jp>"]
+edition = "2018"
+
+[[bin]]
+name = "nkf"
+path = "src/nkf.rs"
+
+[dependencies]
+encoding_rs = "*"
